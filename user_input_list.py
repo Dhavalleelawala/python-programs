@@ -9,7 +9,7 @@ print("your list is: ")
 num=[1,2,3]
 #print(type(num))
 print(num)
-n=int(input("\n Enter list size you want to create: "))
+n=int(input("\n Enter extend array: "))
 i=1
 while i<=n:
     jp=int(input("Enter List elements: "))
@@ -24,6 +24,8 @@ reset=input("If you wont to Reset this list Enter 'Yes' or 'No' ")
 if reset=='yes':
     del num
     print("Reset is done")
+    num="null"
+    print("num list ",num)
 else:
     print("End Program")
     print(num)
