@@ -23,7 +23,7 @@ print(num)
 reset=input("If you wont to Reset this list Enter 'Yes' or 'No' ")
 if reset=='yes':
     del num
-    print("Reset is don")
+    print("Reset is done")
 else:
     print("End Program")
     print(num)
