@@ -12,7 +12,7 @@ print(num)
 n=int(input("\n Enter list size you want to create: "))
 i=1
 while i<=n:
-    jp=int(input("Enter List eliments: "))
+    jp=int(input("Enter List elements: "))
     num.extend([jp])
     i=i+1
 i=1
