@@ -9,7 +9,7 @@ print("your list is: ")
 num=[1,2,3]
 #print(type(num))
 print(num)
-n=int(input("\n Enter list size you whont to enter: "))
+n=int(input("\n Enter list size you want to create: "))
 i=1
 while i<=n:
     jp=int(input("Enter List eliments: "))
